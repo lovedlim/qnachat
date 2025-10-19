@@ -5,7 +5,6 @@ from typing import Dict, List
 from langchain_openai import ChatOpenAI
 from langchain.chains import RetrievalQA
 from langchain_core.prompts import PromptTemplate
-from langchain.callbacks import StreamingStdOutCallbackHandler
 
 
 class QAChain:
